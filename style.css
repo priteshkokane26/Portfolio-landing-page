@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+.body{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+.header{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    overflow: hidden !important;
+    object-fit: cover;
+    
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+.nav-name{
+    margin:0 40px;
+    font-weight: 400;
+    font-size: 3rem;
+    display: flex;
+    color: #2d4aeb;
+}
+.nav-bar{
+   list-style: none;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+   gap:1rem;
+   font-weight: 300;
+   font-size: 1.5rem;
+   margin-right: 70px;
+}
+.social-media{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap:1.2rem;
+    margin-right:20px;
+    color: #2d4aeb;
+}
+
+.section-1{
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+}
+.section-1 .section-1-item{
+    position: relative;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.section-1 .section-1-item .section-1-items-1{
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin:0 40px;
+}
+
+.section-1 .section-1-item .section-1-items-2{
+    font-size: 4rem;
+    margin:0 40px;
+}
+
+.section-1 .section-1-item .section-1-items-3{
+    font-size: 2rem;
+    margin:0 40px;
+    color: #2d4aeb;
+}
+.section-1 .section-1-item .section-1-items-4{
+    font-size: 1.5rem;
+    margin:0 40px;
+}
+.section-1 .section-1-item .section-1-items-5{
+    width:100px;
+    height: 30px;
+    margin:20px 40px;
+    background-color: #2d4aeb;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px !important;
+    box-shadow: 3px 4px 5px #030303;
+}
+
+.section-1 .section-1-item .section-1-items-rotate{
+    writing-mode:vertical-lr;
+    margin-left: auto;
+    white-space: nowrap;
+    transform: rotate(0deg);
+    transform-origin: 100% 50%;
+    font-size: 7rem;
+    position: relative;
+    top:-300px;
+    color: rgba(128, 128, 128, 0.274);
+}
+
+.footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin:0 50px;
+}
